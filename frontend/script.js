@@ -1,4 +1,4 @@
-const API="http://127.0.0.1:5000/api";
+const API="https://resume-analyzer-api-aege.onrender.com/api";
 let current=null;
 
 const $=id=>document.getElementById(id);
