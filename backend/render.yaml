@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: resume-analyzer-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
